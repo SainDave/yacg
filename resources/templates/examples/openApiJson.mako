@@ -10,7 +10,7 @@
     templateVersion = '1.0.0'
 
     title = templateParameters.get('title',"If you set a template param called 'title', then this text appears here")
-    description = templateParameters.get('description','This is a simple template that create an OpenApi file')
+    description = templateParameters.get('description','This is a simple template that creates an OpenApi file')
     description = description + "(created by yacg, template: {} v{})".format(templateFile,templateVersion)
     version = templateParameters.get('version','1.0.0')
     restTypeParam = templateParameters.get('restTypes','')
